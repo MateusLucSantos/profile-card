@@ -1,0 +1,62 @@
+:root {
+    --cor-fundo-principal: hsl(185, 75%, 39%);
+    --cor-texto: hsl(227, 10%, 46%);
+}
+
+body {
+    background-color: var(--cor-fundo-principal);
+}
+
+.container {
+    height: 910px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.profile {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.profile-img {
+    border-radius: 50%;
+}
+
+.profile-discrib{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.name {
+    font-weight: 700;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.age {
+  font-weight: 700;
+  color: var(--cor-texto);
+}
+
+.country p{
+    margin-top: 14px;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--cor-texto);
+}
+
+hr {
+    margin-top: 35px;
+}
