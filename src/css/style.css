@@ -84,4 +84,7 @@ p.title {
         width: 300px;
         height: 350px;
     }
+    .counter-container {
+        margin-top: 10px;
+    }
 }
